@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		74CE91561A06556B00B10E17 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74CE91551A06556B00B10E17 /* main.cpp */; };
+		74CE91611A0655C600B10E17 /* dequeue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74CE915C1A0655C600B10E17 /* dequeue.cpp */; };
+		74CE91621A0655C600B10E17 /* RandomizedQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74CE915F1A0655C600B10E17 /* RandomizedQueue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		74CE91521A06556B00B10E17 /* CSE 394 Project 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CSE 394 Project 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74CE91551A06556B00B10E17 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		74CE915C1A0655C600B10E17 /* dequeue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dequeue.cpp; sourceTree = "<group>"; };
+		74CE915D1A0655C600B10E17 /* dequeue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dequeue.h; sourceTree = "<group>"; };
+		74CE915E1A0655C600B10E17 /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		74CE915F1A0655C600B10E17 /* RandomizedQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomizedQueue.cpp; sourceTree = "<group>"; };
+		74CE91601A0655C600B10E17 /* RandomizedQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomizedQueue.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +64,11 @@
 		74CE91541A06556B00B10E17 /* CSE 394 Project 1 */ = {
 			isa = PBXGroup;
 			children = (
+				74CE915C1A0655C600B10E17 /* dequeue.cpp */,
+				74CE915D1A0655C600B10E17 /* dequeue.h */,
+				74CE915E1A0655C600B10E17 /* node.h */,
+				74CE915F1A0655C600B10E17 /* RandomizedQueue.cpp */,
+				74CE91601A0655C600B10E17 /* RandomizedQueue.h */,
 				74CE91551A06556B00B10E17 /* main.cpp */,
 			);
 			path = "CSE 394 Project 1";
@@ -118,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74CE91621A0655C600B10E17 /* RandomizedQueue.cpp in Sources */,
+				74CE91611A0655C600B10E17 /* dequeue.cpp in Sources */,
 				74CE91561A06556B00B10E17 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
